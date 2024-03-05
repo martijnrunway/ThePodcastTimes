@@ -347,15 +347,6 @@ def update_image(podcast):
 
 # CELL ********************
 
-#podcast = "algorutm_2024-02-22"
-
-# CELL ********************
-
-openAI_client = init_openAI()
-#article = get_article(podcast)
-
-# CELL ********************
-
 summarize_recent_podcasts()
 
 # CELL ********************
@@ -367,14 +358,6 @@ def initialize():
         program = programRow["program"]
         print(program)
         update_newest_from_program(program)
-
-# CELL ********************
-
-#update_image("algorutm_2024-02-22")
-
-# CELL ********************
-
-#summarize("algorutm_2024-02-22")
 
 # CELL ********************
 
